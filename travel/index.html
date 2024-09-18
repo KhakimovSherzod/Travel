@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap/boot.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+
+    <div class="container underline">
+        <div class="first-page">
+            <ul class="first-ul">
+                <img src="./images/Travel-The-World.jpg" alt="">
+                <li><a href="./beaches.html">BEACHES</a></li>
+                <li><a href="./call.html">CALL CENTER</a></li>
+                <li><a href="./transport.html">TRANSPORTS</a></li>
+                <section>
+
+                  <select class="select-op">
+                    <option value="1">**HOTELS**</option>
+                    <option value="2">Burj Al Arab</option>
+                    <option value="3">Atlantis </option>
+                    <option value="4">Four Seasons</option>
+                    <option value="5">Singita</option>
+                    <option value="6">Amangiri</option>
+                    <option value="7">Rosewood</option>
+                  </select>
+                </section>
+                
+ 
+                <input class="search-input" type="search" placeholder="SEARCH" onkeydown="clearInput(event)">
+                
+                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-geo-alt map" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                </svg>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="root">
+        <div class="underdiv first">EVENTS & HAPPENINGS</div>
+        <div class="underdiv second">EBROCHURES</div>
+        <div class="underdiv third">GALLERY</div>
+    </div>
+    <div class="second-container">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/iStock-1185953092.avif" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Dubai-city-tour.jpg" class="d-block " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/43-facts-about-malaysia-1688124270.jpeg" class="d-block " alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- <div class="third-container container">
+        <div class="left-3">
+           <img src="./images/photoshop.jpg" alt="">
+        </div>
+        <div class="right-3">
+          <p>
+            Travel around to experience the remarkable treasures and the hidden gems in the World. Each state offers a unique World's experience for all.
+          </p>
+        </div>
+    </div>
+    <div class="forth-container container">
+        <div class="first-card">
+            <img class="cards-img" src="./images/23-pisa-getty 3.jpg" alt="">
+            <div class="ff-root">
+                 <p class="cards-p">ITALY</p>
+                 <h2 class="cards-h2">Kolizey</h2>
+            </div>
+        </div>
+        <div class="first-card">
+            <img class="cards-img" src="./images/13-burj-khalifa-getty 1.jpg" alt="">
+            <div class="ff-root">
+                 <p class="cards-p">DUBAI</p>
+                 <h2 class="cards-h2">Burj Khalifa</h2>
+            </div>
+        </div>
+        <div class="first-card">
+            <img class="cards-img" src="./images/2-giza-getty 2.jpg" alt="">
+            <div class="ff-root">
+                 <p class="cards-p">EGUPT</p>
+                 <h2 class="cards-h2">Piramid</h2>
+            </div>
+        </div>
+        <div class="first-card">
+            <img class="cards-img" src="./images/BALI 4.jpg" alt="">
+            <div class="ff-root">
+                 <p class="cards-p">INDONESIA</p>
+                 <h2 class="cards-h2">Bali</h2>
+            </div>
+        </div>
+        <div class="first-card">
+            <img class="cards-img" src="./images/top-10-tourist-attractions-in-india-taj-mahal-building-1120x732 5.jpg" alt="">
+            <div class="ff-root">
+                 <p class="cards-p">INDIA</p>
+                 <h2 class="cards-h2">Taj Makhal</h2>
+            </div>
+        </div>
+        <div class="first-card">
+            <img class="cards-img" src="./images/Moscow-Kremlin-2 6.jpg" alt="">
+            <div class="ff-root">
+                 <p class="cards-p">RUSSIA</p>
+                 <h2 class="cards-h2">Kremlin</h2>
+            </div>
+        </div>
+    </div>
+    <div class="fifth-container  container">
+        <div class="left-3">
+            <img src="./images/photoshop-2.jpg" alt="">
+         </div>
+         <div class="right-3">
+           <p>
+            Indulge in an awe-inspiring adventure of a lifetime. Enjoy fun times with your family, explore the wilderness and taste the mouth-watering cuisine of Malaysia.
+           </p>
+         </div>
+    </div>
+    <div class="sixth-container container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/atraksion 1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The most denger</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/atraksion 2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fly car</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/atraksion 7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">amazing situation</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/aquaria-klcc-sharks 4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Malaysian Aquarium</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="./images/atraksion 5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Adrenaline</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div> <div class="col">
+                <div class="card h-100">
+                  <img src="./images/atkasion 6.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Aqua Park</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+    <div class="footer container">
+        <div class="left-footer">
+            <img src="./images/photoshop-3.jpg" alt="">
+        </div>
+        <div class="right-footer">
+           <p>Be informed about World 
+            <br>as a travel destination.</p>
+
+            <input class="email-input" type="email" placeholder="E-mail">
+            <button class="button">SUBMIT</button>
+        </div>
+    </div>
+   
+    <button class="goUpBtn" id="goUpBtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708z"/>
+      <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+    </svg></button> -->
+</body>
+<script src="script.js"></script>
+<script src="./bootstrap/boot.js"></script>
+
+</html>

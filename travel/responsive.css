@@ -1,0 +1,142 @@
+
+@media (max-width:1400px) and (min-width:1200px) {
+    .root {
+        left: 58%;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1000px){
+
+    .container {
+        height: 150px;
+    }
+    .first-ul li {
+       font-size: 14px;
+    }
+    .select-op {
+        font-size: 14px;
+    }
+    .first-ul > img {
+        width: 120px; 
+        height: 60px;
+    }
+    .root {
+        width: 450px;
+        height: 50px;
+        left: 55%;
+    }
+    .underdiv {
+        font-size: 14px;
+    }
+    .first {
+        width: 180px;
+    }
+    .second {
+        width: 110px;
+    
+    }
+    .third {
+        width: 85px;
+    }
+    .search-input {
+        width: 100px;
+         height: 25px;
+         margin-left: 10px;
+    }
+    .carousel-inner img{
+        width: 100%;
+        height: 500px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 768px){
+
+    .container {
+        height: 150px;
+
+    }
+    .first-ul li {
+       font-size: 12px;
+    }
+    .select-op {
+        font-size: 14px;
+    }
+    .first-ul > img {
+        width: 110px; 
+        height: 55px;
+    }
+    .root {
+        left: 45%;
+    }
+    .underline {
+       width: 1000px;
+    }
+    .underdiv {
+        font-size: 14px;
+    }
+    .first {
+        width: 180px;
+    }
+    .second {
+        width: 110px;
+    
+    }
+    .third {
+        width: 85px;
+    }
+    .search-input {
+        width: 100px;
+         height: 25px;
+         margin-left: 10px;
+    }
+    .carousel-inner img{
+        width: 100%;
+        height: 400px;
+    }
+}
+@media (max-width: 768px) and (min-width: 580px){
+
+    .container {
+        height: 140px;
+
+    }
+    .first-ul li {
+       font-size: 10px;
+    }
+    .select-op {
+        font-size: 12px;
+    }
+    .first-ul > img {
+        width: 110px; 
+        height: 55px;
+    }
+    .root {
+        left: 38%;
+    }
+    .underline {
+     border-bottom:  1px solid  rgba(95, 83, 83, 0.895);
+       width: 600px;
+       margin-left: 10%;
+    }
+    .map {
+      display: none;
+    }
+    .underdiv {
+        font-size: 11px;
+    }
+    .first {
+        width: 150px;
+    }
+    .second {
+        width: 95px;
+    
+    }
+    .third {
+        width: 70px;
+    }
+    .search-input {
+      display: none;
+    }
+    .carousel-inner img{
+        width: 100%;
+        height: 350px;
+    }
+}
